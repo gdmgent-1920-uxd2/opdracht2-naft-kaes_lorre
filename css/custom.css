@@ -1,6 +1,27 @@
 @charset "UTF-8";
 /* CSS Document */
 
+/*Nav*/
+
+.navbar{
+    background: rgba(0,255,198,0.25);
+    color: white;
+}
+.navbar-brand{
+    height: 2rem;
+}
+
+
+
+
+
+
+/*------------------------*/
+
+
+
+
+
 
 .blue {
     background: blue;
