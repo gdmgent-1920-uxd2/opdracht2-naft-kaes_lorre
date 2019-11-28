@@ -2,6 +2,10 @@
 /* CSS Document */
 
 /*Nav*/
+.logo{
+    background-image: url("../content/Naft-Logo.svg");
+}
+
 .navbar{
     background: rgba(0,0,0,0);
     color: white;
