@@ -100,13 +100,13 @@ video {
 .caption{
     position: absolute;
     top: 45%;
-    width: 100%;
-    margin: auto;
+    width: 100vw;
     color: white;
 }
 
 .caption h1{
-    font-size: 3rem;
+    font-size: 7rem;
+    text-transform: uppercase;
     
 }
 
