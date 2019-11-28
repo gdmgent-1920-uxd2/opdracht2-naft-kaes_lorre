@@ -47,8 +47,7 @@
                           <div class="video-wrap">
                               <div class="video">
                                   <video id="bgvid" autoplay loop muted>
-      <!-- TemplateBeginEditable name="video" -->
-    <!-- TemplateEndEditable -->
+       <source src="../content/video/naftvid.mp4" type="video/mp4">
                                        </video>
              </div>
                           </div>
