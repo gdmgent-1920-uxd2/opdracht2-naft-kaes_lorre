@@ -4,11 +4,20 @@
 /*Nav*/
 
 .navbar{
-    background: rgba(0,255,198,0.25);
+    background: rgba(0,0,0,0);
     color: white;
 }
 .navbar-brand{
     height: 2rem;
+    color: white;
+}
+
+.navbar-toggler-icon{
+    color: white;
+}
+
+ul.navbar-nav li a{
+    color: white;
 }
 
 
@@ -69,6 +78,7 @@ video {
     position: absolute;
     top: 45%;
     width: 100%;
+    margin: auto;
     color: white;
 }
 
