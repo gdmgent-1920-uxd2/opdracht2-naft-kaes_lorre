@@ -1,16 +1,52 @@
 @charset "UTF-8";
 /* CSS Document */
+body{
+background-color: #151515;
+
+}
+
+
 
 /*Nav*/
+.logo{
+    background-image: url("../content/Naft-Logo.svg");
+}
 
 .navbar{
-    background: rgba(0,255,198,0.25);
+    background: rgba(0,0,0,0);
     color: white;
 }
 .navbar-brand{
     height: 2rem;
+    color: white;
 }
 
+
+.navbar-toggler{
+    margin-top: 2rem;
+    padding-top: 1,5rem;
+}
+
+
+.navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 25 25' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    min-height: 8vh;
+    min-width: 8vh;
+}
+
+
+ul li a{
+    color: white;
+    font-size: 5rem;
+}
+ul li a:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+ul{
+    align-items: flex-end;
+}
 
 
 /*--- Bootstrap Mobile Gutter Fix --*/
@@ -68,12 +104,13 @@ video {
 .caption{
     position: absolute;
     top: 45%;
-    width: 100%;
+    width: 100vw;
     color: white;
 }
 
 .caption h1{
-    font-size: 3rem;
+    font-size: 7rem;
+    text-transform: uppercase;
     
 }
 
