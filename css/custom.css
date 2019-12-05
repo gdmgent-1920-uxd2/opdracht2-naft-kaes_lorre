@@ -39,6 +39,10 @@ ul li a{
     color: white;
     font-size: 5rem;
 }
+ul li a:hover{
+    color:white;
+    text-decoration: underline;
+}
 
 ul{
     align-items: flex-end;
