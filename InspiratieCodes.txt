@@ -1,3 +1,9 @@
 
 Carousel partial view next and previous slide.
 https://www.codeply.com/go/rgB19sVvlo/bootstrap-4-carousel-with-next-prev-(partial)
+
+
+Items die container overschrijden (links / rechts tegen rand)
+https://codepen.io/simonli/pen/qppeER
+
+
