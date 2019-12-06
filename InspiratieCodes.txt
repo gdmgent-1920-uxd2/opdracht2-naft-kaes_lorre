@@ -7,3 +7,6 @@ Items die container overschrijden (links / rechts tegen rand)
 https://codepen.io/simonli/pen/qppeER
 
 
+Cards Foto's
+https://codepen.io/AldoF/pen/LvQaVW
+
