@@ -145,11 +145,11 @@
 /*Idee voor code dat item van container container vrijstelt in InspiratieCodes.txt*/ 
 .pagetitle{
     margin:-15vh 0 0 0;
-    padding: 3% 4% 4% 2%;
+    padding: 1% 4% 4% 1%;
     position: relative;
     background-color: white;
     left: calc(-1 * (100vw - 100%) / 2);
-    width: 45vw;
+    width: 42vw;
     
 }
 
