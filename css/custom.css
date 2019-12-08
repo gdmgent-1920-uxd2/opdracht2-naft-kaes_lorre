@@ -55,6 +55,7 @@
     ul li a{
         color: white;
         font-size: 5rem;
+        letter-spacing: 2rem;
     }
     ul li a:hover{
         color:white;
@@ -154,7 +155,8 @@
 
 .pagetitle h1{
     color: #151515;
-    font-size: 4rem;
+    font-weight: bold;
+    font-size: 6rem;
     margin-right: 5vw;
     
 }
