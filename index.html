@@ -14,20 +14,20 @@
   <!-- InstanceBeginEditable name="head" -->
   <!-- InstanceEndEditable -->
   </head>
-  <body>
+  <body class="container-fluid">
   	<!-- body code goes here -->
-      <div class="container-fluid fixed-top">
-    <nav class="row navbar">
+      <div class="container-fluid clearfix">
+    <nav class="row navbar fixed-top">
     <a class="navbar-brand col-2" href="#!">
         <img src="content/Naft-Logo.svg" alt="Logo.svg">
         
-        </a>
+    </a>
         
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+  <div class="collapse navbar-collapse clearfix" id="navbarTogglerDemo02">
     <ul class="navbar-nav float-right">
       <li class="nav-item active">
         <a class="nav-link" href="index.html">home <span class="sr-only">(current)</span></a>
@@ -52,26 +52,30 @@
         
 
 </nav>
-  </div><!-- #BeginLibraryItem "/Library/Fullscreen bg Vid.lbi" --><div class="video-background">
-                          <div class="video-wrap">
-                              <div class="video">
-                                  <video id="bgvid" autoplay loop muted>
-                                       <source src="content/video/naftvid.mp4" type="video/mp4">
-                                  </video>
-                              </div>
-                          </div>
+  </div><!-- #BeginLibraryItem "/Library/Fullscreen bg Vid.lbi" -->
+<div class="video-background">
+      <div class="video-wrap">
+          <div class="video">
+              <video id="bgvid" autoplay loop muted>
+                   <source src="content/video/naftvid.mp4" type="video/mp4">
+              </video>
+          </div>
+      </div>
 
-            </div>
+</div>
       
-       <div class="caption text-center">
-        <h1>We're Naft</h1>
-           <h3>Top of The Belgium Brass Dance Music</h3>
-          
-      </div>  <!-- #EndLibraryItem --><div>
-    <h1>
-         <!-- InstanceBeginEditable name="pagetitle" -->HOME
+<div class="caption d-flex flex-column">
+        <h1 class="text-center">We're Naft</h1>
+        <h3 class="text-center">Top of The Belgium Brass Dance Music</h3>
+</div>  <!-- #EndLibraryItem --><div>
+    
+    <div class="pagetitle">
+        <h1 class="text-right">
+            <!-- InstanceBeginEditable name="pagetitle" -->HOME
     <!-- InstanceEndEditable -->
-         </h1>
+        </h1>
+    </div>
+          
     </div>
       
         <!-- InstanceBeginEditable name="body" -->
@@ -105,33 +109,49 @@
               </a>
       </div>
           </div><!-- #BeginLibraryItem "/Library/Tourdates.lbi" --><table class="table table-dark">
-  <thead>
+    <tbody class="table table-borderless">
     <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
+      <th scope="date">08/11</th>
+      <td class="venue">Art Cube</td>
+      <td class="city">GENT (BE)</td>
+      <td><a class="ticket">tickets</a></td>
     </tr>
-  </thead>
-  <tbody>
+        
     <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <th scope="date">22/11</th>
+      <td class="venue">Hothouse</td>
+      <td class="city">leiden (nl)</td>
+      <td><a class="ticket">tickets</a></td>
     </tr>
+        
     <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
+      <th scope="date">23/11</th>
+      <td class="venue">De Roende</td>
+      <td class="city">kortemark (be)</td>
+      <td><a class="ticket">tickets</a></td>
     </tr>
+        
     <tr>
-      <th scope="row">3</th>
-      <td>Larry</td>
-      <td>the Bird</td>
-      <td>@twitter</td>
+      <th scope="date">23/11</th>
+      <td class="venue">Gentle ultimate</td>
+      <td class="city">Gent (be)</td>
+      <td><a class="ticket">tickets</a></td>
     </tr>
+        
+    <tr>
+      <th scope="date">29/11</th>
+      <td class="venue">Black Friday</td>
+      <td class="city">lier (be)</td>
+      <td><a class="ticket">Tickets</a></td>
+    </tr>
+        
+    <tr>
+      <th scope="date">30/11</th>
+      <td class="venue">Tournee Mondi'alle</td>
+      <td class="city">Halle (be)</td>
+      <td><a class="ticket">tickets</a></td>
+    </tr>
+            
   </tbody>
 </table><!-- #EndLibraryItem --></div>
     <!-- InstanceEndEditable -->
@@ -142,7 +162,7 @@
     
     <!-- Footer -->
     <!-- ------------------------ --><!-- #BeginLibraryItem "/Library/footer.lbi" -->
-    <footer class="page-footer font-small blue pt-4">
+    <footer class="container-fluid page-footer font-small blue pt-4">
 
       <!-- Footer Links -->
       <div class="container-fluid text-center text-md-left">
@@ -184,8 +204,25 @@
 
       </div>
       <!-- Footer Links -->
-		<!-- Copyright -->
-	
+		
+		<div class="logos">
+				<a href="https://www.facebook.com/"target="_blank">
+                    <span style="font-size: 25px; color:black;">
+                    <i class="fab fa-facebook-f"></i></span></a>
+                <a href="https://www.instagram.com/"target="_blank">
+                    <span style="font-size: 25px; color:black;">
+                    <i class="fab fa-instagram"></i></span></a>
+                <a href="https://twitter.com/?lang=nl"target="_blank">
+                    <span style="font-size: 25px; color:black;">
+                    <i class="fab fa-twitter"></i></span></a>
+                <a href="https://www.youtube.com/watch?v=5dsGWM5XGdg"target="_blank">
+                    <span style="font-size: 25px; color:black;">
+
+                    <i class="fas fa-cat"></i></span></a>
+
+            </div>
+
+      <!-- Copyright -->
       <div class="footer-copyright text-center py-3">© 2019 Copyright:
 
         <a href="https://mdbootstrap.com/education/bootstrap/"> Arteveldehogeschool - GDM</a> | Kaes Xander | Lorré Xandrine 

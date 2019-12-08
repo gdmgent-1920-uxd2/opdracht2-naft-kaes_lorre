@@ -1,123 +1,134 @@
 @charset "UTF-8";
 /* CSS Document */
-*{
-    margin: 0;
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body{
+    background-color: #151515;
     padding: 0;
-}
+    margin: 0;
+    }
 
-body{
-background-color: #151515;
-
-}
-
+    .container-fluid{
+        padding:0;
+        margin: 0;
+    }
 
 
 /*Nav*/
-.logo{
-    background-image: url("../content/Naft-Logo.svg");
-}
+    .logo{
+        background-image: url("../content/Naft-Logo.svg");
+    }
 
-.navbar{
-    background: rgba(0,0,0,0);
-    color: white;
-}
-.navbar-brand{
-    height: 2rem;
-    color: white;
-}
-
-
-.navbar-toggler{
-    margin-top: 2rem;
-    padding-top: 1,5rem;
-}
+    .navbar{
+        background: rgba(0,0,0,0);
+        color: white;
+    }
+    .navbar-brand img{
+        margin-top: 2rem;
+        height: 10vh;
+        color: white;
+    }
 
 
-.navbar-toggler-icon{
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 25 25' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    min-height: 8vh;
-    min-width: 8vh;
-}
+    .navbar-toggler{
+        margin-top: 2rem;
+        padding-top: 1,5rem;
+    }
 
 
-ul li a{
-    color: white;
-    font-size: 5rem;
-}
-ul li a:hover{
-    color:white;
-    border-bottom: solid, 1px, white;
-}
+    .navbar-toggler-icon{
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 25 25' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+        min-height: 8vh;
+        min-width: 8vh;
+    }
 
-ul{
-    align-items: flex-end;
-}
+
+    ul li a{
+        color: white;
+        font-size: 5rem;
+    }
+    ul li a:hover{
+        color:white;
+        border-bottom: solid, 1px, white;
+    }
+
+    ul{
+        align-items: flex-end;
+    }
 
 
 /*--- Bootstrap Mobile Gutter Fix --*/
-.row, .container-fluid {
-margin-left: 0px!important;
-margin-right: 0px!important;
-}
+    .row,{
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+    }
 
 /*--- Fixed Video Background iOS/Mobile Style--*/
-.video-wrap {
-  clip: rect(0, auto, auto, 0);
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-#video {
-  position: fixed;
-  display: block;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center center;
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
-  will-change: transform;
-  z-index: -1000;
-}
-video { 
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: -100;
-  transform: translateX(-50%) translateY(-50%);
-  background: url('') no-repeat;
-  background-size: cover;
-  transition: 1s opacity;
-}
+    .video-wrap {
+      clip: rect(0, auto, auto, 0);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    #video {
+      position: fixed;
+      display: block;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center center;
+      -webkit-transform: translateZ(0);
+              transform: translateZ(0);
+      will-change: transform;
+      z-index: -1000;
+    }
+    video { 
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      min-width: 100%;
+      min-height: 100%;
+      width: auto;
+      height: auto;
+      z-index: -100;
+      transform: translateX(-50%) translateY(-50%);
+      background: url('') no-repeat;
+      background-size: cover;
+      transition: 1s opacity;
+    }
 
 
-.video-background {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    background-color: rgba(0,0,0,0.25)
-}
+    .video-background {
+        position: relative;
+        width: 100%;
+        min-height: 100vh;
+        background-color: rgba(0,0,0,0.25)
+    }
 
-.caption{
-    position: absolute;
-    top: 45%;
-    width: 100vw;
-    color: white;
-}
+    .caption{
+        position: absolute;
+        top: 45%;
 
-.caption h1{
-    font-size: 7rem;
-    text-transform: uppercase;
-    
-}
+        width: 100%;
+        color: white;
+    }
+
+    .caption h1{
+        font-size: 3rem;
+        text-transform: uppercase;
+
+    }
+
+    .caption h3{
+        font-size: 1.3;
+    }
 
 /*------------------------*/
 
@@ -125,15 +136,32 @@ video {
 
 
 /*Idee voor code dat item van container container vrijstelt in InspiratieCodes.txt*/ 
+.pagetitle{
+    margin:-15vh 0 0 0;
+    padding: 3% 4% 4% 2%;
+    position: relative;
+    background-color: white;
+    left: calc(-1 * (100vw - 100%) / 2);
+    width: 45vw;
+    
+}
+
+.pagetitle h1{
+    color: #151515;
+    font-size: 4rem;
+    margin-right: 5vw;
+    
+}
+
 
 .titleleft{
-  margin:0;
-  padding: 3% 4% 4% 2%;
-  position: relative;
-  background-color: lightgreen;
-  left: calc(-1 * (100vw - 100%) / 2);
-  writing-mode: vertical-rl;
-  text-orientation: sideways;
+    margin:0;
+    padding: 3% 4% 4% 2%;
+    position: relative;
+    background-color: lightgreen;
+    left: calc(-1 * (100vw - 100%) / 2);
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
 }
 
 
