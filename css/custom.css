@@ -40,6 +40,7 @@
 
 
     .navbar-toggler{
+        z-index: 100;
         margin-top: 2rem;
         padding-top: 1,5rem;
     }
@@ -50,24 +51,30 @@
         min-height: 8vh;
         min-width: 8vh;
     }
-
+    
+    ul{
+        align-items: flex-end;
+        z-index: 50;
+        background-color: #00FFB2;
+        padding: 40vh;
+        margin: -40vh -40vh 0 -40vh;
+        margin-left: 5vw
+    }
 
     ul li a{
+        line-height: 8vh;
         color: white;
-        font-size: 8vh;
-        letter-spacing: 2rem;
+        font-size: 3rem;
+        letter-spacing: 1.5rem;
         transition: letter-spacing .3s;
         transition-timing-function: ease-in-out;
         
     }
     ul li a:hover{
         color:#E2E2E2;
-        letter-spacing: 4rem;
+        letter-spacing: 2rem;
     }
 
-    ul{
-        align-items: flex-end;
-    }
 
 
 /*--- Bootstrap Mobile Gutter Fix --*/
@@ -131,13 +138,13 @@
     }
 
     .caption h1{
-        font-size: 8rem;
+        font-size: 3rem;
         text-transform: uppercase;
 
     }
 
     .caption h3{
-        font-size: 1.3;
+        font-size: 0.8rem;
     }
 
 /*------------------------*/
@@ -147,19 +154,19 @@
 
 /*Idee voor code dat item van container container vrijstelt in InspiratieCodes.txt*/ 
 .pagetitle{
-    margin:-14vh 0 5vh 0;
+    margin:-10vh 0 5vh 0;
     padding: 1% 4% 1% 1%;
     position: relative;
     background-color: white;
     left: calc(-1 * (100vw - 100%) / 2);
-    width: 42vw;
+    width: 65vw;
     
 }
 
 .pagetitle h1{
     color: #151515;
     font-weight: bold;
-    font-size: 10vh;
+    font-size: 3rem;
     margin-right: 5vw;
     
 }
@@ -236,16 +243,118 @@ th,td{
 
 
 
+/*
 
+SCREENSIZE +800PX
+
+*/
 
 
 
 
 @media (min-width: 800px){
-    .carousel-item img.w-100{
-    width: 80vw;
-    height: 35vw;
+    
+    /*NAV*/
+  
+.navbar-brand img{
+        margin-top: 2rem;
+        height: 10vh;
+        color: white;
+    }
+    
+    
+ul{
+        background-color: transparent;
+    margin: 0;
+    padding: 0;
+    }    
+    
+ul li a{
+        color: white;
+        font-size: 8vh;
+        letter-spacing: 2rem;
+    line-height: 12vh;
+    }
+    
+ul li a:hover{
+        color:#E2E2E2;
+        letter-spacing: 4rem;
+    }    
+    
+/*Video Caption*/
+    
+.caption h1{
+    font-size: 8rem;
+    text-transform: uppercase;
 }
+
+.caption h3{
+    font-size: 2.5rem;
+}
+    
+    
+/*PAGETITLE*/
+    
+.pagetitle{
+    width: 42vw;
+    
+}
+
+.pagetitle h1{
+    color: #151515;
+    font-weight: bold;
+    font-size: 10vh;
+    margin-right: 5vw;
+    
+}
+
+/*Sectiontitle*/
+
+.titleleft{
+    
+    font-size:3rem;
+}
+    
+/*CONTENT*/
+
+ 
+
+.carousel-item img{
+    height: 35vw;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
+
+.green{
+    background-color:#00FFB2;
+}
+
+p.carouseltag{
+    /*Box-size*/
+    margin-top: -10vh;
+    padding-top: 13vh;
+    padding-bottom: 5vh;
+    
+    /*Type*/
+    text-align: end;
+    font-size: 2vh;
+}
+
+
+/*Showdates Tabel*/
+
+.table{
+    margin: 5vh 0;
+    background-color: transparent;
+    color: #00FFB2;
+}
+
+th,td{
+    padding: 5vh;
+}
+
+
     
     
 }
