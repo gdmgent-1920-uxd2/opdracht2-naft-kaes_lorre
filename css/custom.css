@@ -58,8 +58,8 @@
         letter-spacing: 2rem;
     }
     ul li a:hover{
-        color:white;
-        border-bottom: solid, 1px, white;
+        color:#E2E2E2;
+        letter-spacing: 4rem;
     }
 
     ul{
@@ -68,7 +68,7 @@
 
 
 /*--- Bootstrap Mobile Gutter Fix --*/
-    .row,{
+    .row{
     margin-left: 0px!important;
     margin-right: 0px!important;
     }
@@ -156,24 +156,43 @@
 .pagetitle h1{
     color: #151515;
     font-weight: bold;
-    font-size: 7rem;
+    font-size: 10vh;
     margin-right: 5vw;
     
 }
 
 
 .titleleft{
-    margin:0 0 -10vh 0;
-    padding: 3% 4% 4% 2%;
-    position: relative;
+    margin:0 -10vw -10vh 0;
+    padding: 3% 1% 3% 2%;
     background-color: white;
     color: black;
-    left: calc(-1 * (100vw - 100%) / 2);
     writing-mode: vertical-lr;
     text-orientation: sideways;
+    font-size:3rem;
 }
 
+.carousel-item img{
+    height: 35vh;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+}
 
+.green{
+    background-color:#00FFB2;
+}
+
+p.carouseltag{
+    /*Box-size*/
+    margin-top: -10vh;
+    padding-top: 13vh;
+    padding-bottom: 5vh;
+    
+    /*Type*/
+    text-align: end;
+    font-size: 2vh;
+}
 
 
 
@@ -196,4 +215,45 @@
     background-color: rgba(0,0,0,0.2) ;
     color: white;
     font-size: 0.7rem;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 800px){
+    .carousel-item img.w-100{
+    width: 80vw;
+    height: 35vw;
+}
+    
+    
+}
+
+
+
+
+
+
+
+
+/*Big Screen widths addition*/
+
+@media (min-width: 1920px) {
+  .container {
+    max-width: 1400px;
+    margin:auto;
+  }
+}
+
+@media (min-width: 2560px) {
+  .container {
+    max-width: 2000px;
+    margin: auto;
+  }
 }
