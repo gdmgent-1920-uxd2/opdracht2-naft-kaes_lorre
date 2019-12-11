@@ -54,8 +54,11 @@
 
     ul li a{
         color: white;
-        font-size: 5rem;
+        font-size: 8vh;
         letter-spacing: 2rem;
+        transition: letter-spacing .3s;
+        transition-timing-function: ease-in-out;
+        
     }
     ul li a:hover{
         color:#E2E2E2;
@@ -194,6 +197,18 @@ p.carouseltag{
     font-size: 2vh;
 }
 
+
+/*Showdates Tabel*/
+
+.table{
+    margin: 5vh 0;
+    background-color: transparent;
+    color: #00FFB2;
+}
+
+th,td{
+    padding: 5vh;
+}
 
 
 
