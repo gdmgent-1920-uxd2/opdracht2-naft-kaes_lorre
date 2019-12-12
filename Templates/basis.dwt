@@ -90,7 +90,7 @@
     <footer class="container-fluid page-footer font-small green pt-4">
 
       <!-- Footer Links -->
-      <div class="container-fluid text-center text-md-left">
+      <div class="container text-center text-md-left">
 
         <!-- Grid row -->
         <div class="row">
@@ -99,6 +99,12 @@
           <div class="col-md-6 mt-md-0 mt-3">
 
             <!-- Content -->
+			  
+	    <p class="contact_titel">CONTACTEER ONS</p>
+        <p class="klik"> <a href="mailto:contact@naft.live" target= "_self">contact@naft.live </a>
+        <p class="contact_titel"><br>BOOKING</p>
+        <p class="klik"><a href="https://www.doxlive.amsterdam/naft">DOX live</a>
+        <p class="klik"><a href="mailto:randy@doxlive.amsterdam" target= "_self">randy@doxlive.amsterdam </a>
            
           </div>
           <!-- Grid column -->
@@ -108,8 +114,9 @@
           <!-- Grid column -->
           <div class="col-md-3 mb-md-0 mb-3">
 
-            <!-- Links -->
-            
+            <legend for="email">NIEUWBRIEF</legend>
+            <input class="inputEmail" type="email" name="Email input" placeholder="e-mail" id="email" required>
+            <input class="submit" type="submit" value="INSCHRIJVEN">
 
           </div>
           <!-- Grid column -->

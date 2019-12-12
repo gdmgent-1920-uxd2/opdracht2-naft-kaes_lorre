@@ -17,9 +17,6 @@
         <p class="contact_titel"><br>BOOKING</p>
         <p class="klik"><a href="https://www.doxlive.amsterdam/naft">DOX live</a>
         <p class="klik"><a href="mailto:randy@doxlive.amsterdam" target= "_self">randy@doxlive.amsterdam </a>
-        <legend for="email">NIEUWBRIEF</legend>
-        <input class="inputEmail" type="email" name="Email input" placeholder="e-mail" id="email" required>
-        <input class="submit" type="submit" value="INSCHRIJVEN">
            
           </div>
           <!-- Grid column -->
@@ -29,8 +26,9 @@
           <!-- Grid column -->
           <div class="col-md-3 mb-md-0 mb-3">
 
-            <!-- Links -->
-            
+            <legend for="email">NIEUWBRIEF</legend>
+            <input class="inputEmail" type="email" name="Email input" placeholder="e-mail" id="email" required>
+            <input class="submit" type="submit" value="INSCHRIJVEN">
 
           </div>
           <!-- Grid column -->
