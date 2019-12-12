@@ -217,8 +217,12 @@ p.carouseltag{
     vertical-align: middle;
     padding: 0 0.25rem;
     
+
 }
 
+.table .city{
+	font-variant-caps: all-small-caps;
+}
 
 .venue{
     color: white;
