@@ -166,7 +166,7 @@
 .pagetitle h1{
     color: #151515;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 7vh;
     margin-right: 5vw;
     
 }
@@ -296,6 +296,7 @@ ul li a:hover{
 /*PAGETITLE*/
     
 .pagetitle{
+    margin-top: -15vh;
     width: 42vw;
     
 }
