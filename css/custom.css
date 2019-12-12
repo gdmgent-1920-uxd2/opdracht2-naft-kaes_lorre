@@ -214,8 +214,9 @@ p.carouseltag{
     font-size: 0.8rem;
 }
 
-th,td{
-    padding: 2vw;
+th.date{
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .venue{
@@ -356,15 +357,11 @@ p.carouseltag{
     font-size: 4rem;
 }
 
-th,td{
-    padding: 5vh;
-}
 
 .venue{
     color: white;
 }
 
-    
 
 
 
