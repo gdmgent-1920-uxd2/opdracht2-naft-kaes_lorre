@@ -211,10 +211,16 @@ p.carouseltag{
     margin: 5vh 0;
     background-color: transparent;
     color: #00FFB2;
+    font-size: 0.8rem;
 }
 
 th,td{
-    padding: 5vh;
+    padding: 2vw;
+}
+
+.venue{
+    color: white;
+    text-align: end;
 }
 
 
@@ -347,18 +353,19 @@ p.carouseltag{
 
 .table{
     margin: 5vh 0;
-    background-color: transparent;
-    color: #00FFB2;
+    font-size: 4rem;
 }
 
 th,td{
     padding: 5vh;
 }
 
+.venue{
+    color: white;
+}
 
     
-    
-}
+
 
 
 
