@@ -191,6 +191,16 @@
 
 .green{
     background-color:#00FFB2;
+    left: calc(-1 * (100vw - 100%) / 2);
+}
+
+.full-width {
+  margin-top: -10vh;
+    padding-top: 13vh;
+    padding-bottom: 5vh;
+    
+  margin-left: calc(-100vw / 2 + 500px / 2);
+  margin-right: calc(-100vw / 2 + 500px / 2);
 }
 
 p.carouseltag{
@@ -204,6 +214,10 @@ p.carouseltag{
     font-size: 2vh;
 }
 
+
+.carousel-control-prev,.carousel-control-next{
+    max-height: 35vh;
+}
 
 /*Showdates Tabel*/
 
