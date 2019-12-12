@@ -217,7 +217,10 @@ p.carouseltag{
     vertical-align: middle;
     padding: 0 0.25rem;
     
-
+}
+.table th{
+    font-size: 0.5rem;
+    vertical-align: middle;
 }
 
 .table .city{
@@ -268,82 +271,82 @@ SCREENSIZE +800PX
     
     /*NAV*/
   
-.navbar-brand img{
-        margin-top: 2rem;
-        height: 10vh;
-        color: white;
+    .navbar-brand img{
+            margin-top: 2rem;
+            height: 10vh;
+            color: white;
+        }
+
+
+    ul{
+            background-color: transparent;
+        margin: 0;
+        padding: 0;
+        }    
+
+    ul li a{
+            color: white;
+            font-size: 8vh;
+            letter-spacing: 2rem;
+        line-height: 12vh;
+        }
+
+    ul li a:hover{
+            color:#E2E2E2;
+            letter-spacing: 4rem;
+        }    
+
+    /*Video Caption*/
+
+    .caption h1{
+        font-size: 8rem;
+        text-transform: uppercase;
     }
-    
-    
-ul{
-        background-color: transparent;
-    margin: 0;
-    padding: 0;
-    }    
-    
-ul li a{
-        color: white;
-        font-size: 8vh;
-        letter-spacing: 2rem;
-    line-height: 12vh;
+
+    .caption h3{
+        font-size: 2.5rem;
     }
-    
-ul li a:hover{
-        color:#E2E2E2;
-        letter-spacing: 4rem;
-    }    
-    
-/*Video Caption*/
-    
-.caption h1{
-    font-size: 8rem;
-    text-transform: uppercase;
-}
 
-.caption h3{
-    font-size: 2.5rem;
-}
-    
-    
-/*PAGETITLE*/
-    
-.pagetitle{
-    margin-top: -15vh;
-    width: 42vw;
-    
-}
 
-.pagetitle h1{
-    color: #151515;
-    font-weight: bold;
-    font-size: 12vh;
-    margin-right: 5vw;
-    
-}
+    /*PAGETITLE*/
 
-/*Sectiontitle*/
+    .pagetitle{
+        margin-top: -15vh;
+        width: 42vw;
 
-.titleleft{
-    
-    font-size:3rem;
-}
-    
-/*CONTENT*/
+    }
 
- 
+    .pagetitle h1{
+        color: #151515;
+        font-weight: bold;
+        font-size: 12vh;
+        margin-right: 5vw;
 
-.carousel-item img{
-    height: 35vw;
-    object-fit: cover;
-    object-position: center;
-    overflow: hidden;
-}
+    }
 
-.green{
-    background-color:#00FFB2;
-}
+    /*Sectiontitle*/
 
-p.carouseltag{
+    .titleleft{
+
+        font-size:3rem;
+    }
+
+    /*CONTENT*/
+
+
+
+    .carousel-item img{
+        height: 35vw;
+        object-fit: cover;
+        object-position: center;
+        overflow: hidden;
+    }
+
+    .green{
+        background-color:#00FFB2;
+    }
+
+    p.carouseltag{
     /*Box-size*/
     margin-top: -10vh;
     padding-top: 13vh;
@@ -352,25 +355,28 @@ p.carouseltag{
     /*Type*/
     text-align: end;
     font-size: 2vh;
-}
+    }
 
 
-/*Showdates Tabel*/
+    /*Showdates Tabel*/
 
-.table{
-    margin: 5vh 0;
-    font-size: 2rem;
-}
+    .table{
+        margin: 5vh 0;
+        font-size: 2rem;
+    }    
     .venue{
         font-size: 2.2rem;
         font-weight: Bold;
     }
 
 
-.venue{
-    color: white;
-}
+    .venue{
+        color: white;
+    }
 
+    .table th{
+    font-size: 1.3rem;
+    }
 
 
 
