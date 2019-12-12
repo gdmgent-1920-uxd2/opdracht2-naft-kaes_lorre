@@ -2,7 +2,7 @@
     <footer class="container-fluid page-footer font-small green pt-4">
 
       <!-- Footer Links -->
-      <div class="container-fluid text-center text-md-left">
+      <div class="container text-center text-md-left">
 
         <!-- Grid row -->
         <div class="row">
@@ -11,6 +11,8 @@
           <div class="col-md-6 mt-md-0 mt-3">
 
             <!-- Content -->
+			  <p>CONTACTEER ONS
+contact@naft.live</p>
            
           </div>
           <!-- Grid column -->
