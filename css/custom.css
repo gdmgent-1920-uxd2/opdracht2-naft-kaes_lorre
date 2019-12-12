@@ -354,8 +354,12 @@ p.carouseltag{
 
 .table{
     margin: 5vh 0;
-    font-size: 4rem;
+    font-size: 2rem;
 }
+    .venue{
+        font-size: 2.2rem;
+        font-weight: Bold;
+    }
 
 
 .venue{
