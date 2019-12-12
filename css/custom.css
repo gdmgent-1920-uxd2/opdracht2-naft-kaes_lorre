@@ -154,7 +154,7 @@
 
 /*Idee voor code dat item van container container vrijstelt in InspiratieCodes.txt*/ 
 .pagetitle{
-    margin:-10vh 0 5vh 0;
+    margin:-8.5vh 0 5vh 0;
     padding: 1% 4% 1% 1%;
     position: relative;
     background-color: white;
@@ -311,7 +311,7 @@ ul li a:hover{
 .pagetitle h1{
     color: #151515;
     font-weight: bold;
-    font-size: 10vh;
+    font-size: 12vh;
     margin-right: 5vw;
     
 }
