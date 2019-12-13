@@ -412,13 +412,7 @@ SCREENSIZE +800PX
 }
     
     p.carouseltag{
-    /*Box-size*/
-    margin-top: -10vh;
-    padding-top: 13vh;
-    padding-bottom: 5vh;
     
-    /*Type*/
-    text-align: end;
     font-size: 2vh;
     }
 
