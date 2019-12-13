@@ -7,11 +7,40 @@ ul.nav-shop li a{
 color: #00FFB2;
 list-style: none;
 text-decoration: none;
+font-size: 25px;
 }
 
 .active {
 
-    border-bottom: .3rem solid #3E7280;
+    border-bottom: .3rem solid #00FFB2;
+}
+
+ul.nav-shop li a:hover{
+	 border-bottom: .3rem solid #00FFB2;
+}
+
+
+.card {
+	height: 23rem;
+    margin-bottom: 10rem;
+    margin: 1.7rem;
+    padding-bottom: 5rem;
+    margin-bottom: 4rem;
+    transition: .3s ease-in-out;
+    overflow: hidden;
 
 }
-    
+
+.card img {
+	overflow: hidden;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: .8rem;
+}
+
+.card-img-overlay{
+	padding-top: 100px;
+	padding-left: 30px;
+	font-size: 20px;
+	color: white;
+}
