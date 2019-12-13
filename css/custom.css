@@ -204,14 +204,14 @@
 }
 
 .carousel-title{
-font-size: 5vh;
+    margin-top: -10vh;
+    padding-top: 13vh;
+    font-size: 5vh;
     font-weight: bold;
 }
 
 p.carouseltag{
     /*Box-size*/
-    margin-top: -10vh;
-    padding-top: 13vh;
     padding-bottom: 5vh;
     
     /*Type*/
