@@ -35,7 +35,7 @@
         </div>
         <!-- Grid row -->
 
-      </div> 
+      <div class="row">
       <!-- Footer Links -->
 		
 		<div class="logos">
@@ -63,11 +63,10 @@
                     <i class="fa fa-youtube-play"></i>
 			</a>
 				
-					
-					
-<i 
+				
             </div>
-
+</div>
+		</div>
       <!-- Copyright -->
       <div class="footer-copyright text-center py-3">© 2019 Copyright:
 
