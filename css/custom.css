@@ -387,7 +387,7 @@ SCREENSIZE +800PX
 
     /*CONTENT*/
 
-
+    
 
     .carousel-item img{
         height: 35vw;
@@ -399,7 +399,18 @@ SCREENSIZE +800PX
     .green{
         background-color:#00FFB2;
     }
-
+     
+    .carousel-title{
+    /*position*/
+    margin-top: -10vh;
+    padding-top: 13vh;
+    
+    /*Type*/
+    font-size: 5vh;
+    font-weight: bold;
+    text-align: end;
+}
+    
     p.carouseltag{
     /*Box-size*/
     margin-top: -10vh;
