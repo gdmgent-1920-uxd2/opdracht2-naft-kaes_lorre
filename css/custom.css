@@ -306,6 +306,19 @@ p.carouseltag{
     text-decoration: none;
 }
 
+a:hover{
+	color: deeppink;
+	text-decoration: none;
+
+}
+
+footer a{
+	color: black;
+}
+
+.fa{
+	font-size: 50px;
+}
 
 
 
