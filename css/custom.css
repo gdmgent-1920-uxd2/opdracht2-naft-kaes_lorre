@@ -52,7 +52,7 @@
         min-width: 8vh;
     }
     
-    ul{
+    nav ul{
         align-items: flex-end;
         z-index: 50;
         background-color: #00FFB2;
@@ -61,7 +61,7 @@
         margin-left: 5vw
     }
 
-    ul li a{
+    nav ul li a{
         line-height: 8vh;
         color: white;
         font-size: 3rem;
@@ -70,7 +70,7 @@
         transition-timing-function: ease-in-out;
         
     }
-    ul li a:hover{
+    nav ul li a:hover{
         color:#E2E2E2;
         letter-spacing: 2rem;
     }
@@ -311,7 +311,7 @@ p.carouseltag{
     text-decoration: none;
 }
 
-a:hover{
+footer a:hover{
 	color: deeppink;
 	text-decoration: none;
 
@@ -347,20 +347,20 @@ SCREENSIZE +800PX
         }
 
 
-    ul{
+   nav ul{
             background-color: transparent;
         margin: 0;
         padding: 0;
         }    
 
-    ul li a{
+   nav ul li a{
             color: white;
             font-size: 8vh;
             letter-spacing: 2rem;
         line-height: 12vh;
         }
 
-    ul li a:hover{
+   nav ul li a:hover{
             color:#E2E2E2;
             letter-spacing: 4rem;
         }    

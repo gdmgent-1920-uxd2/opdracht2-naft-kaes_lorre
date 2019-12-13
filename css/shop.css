@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+ul.nav-shop li a{
+    margin-bottom: 1.8rem;
+color: #00FFB2;
+list-style: none;
+text-decoration: none;
+}
+
+.active {
+
+    border-bottom: .3rem solid #3E7280;
+
+}
+    
