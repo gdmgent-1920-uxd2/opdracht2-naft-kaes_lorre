@@ -182,6 +182,11 @@
     font-size:3rem;
 }
 
+.carousel{
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .carousel-item img{
     height: 35vh;
     object-fit: cover;
@@ -210,7 +215,7 @@
     
     /*Type*/
     color: white;
-    font-size: 5vh;
+    font-size: 7vh;
     font-weight: bold;
     text-align: end;
 }
@@ -222,7 +227,7 @@ p.carouseltag{
     
     /*Type*/
     text-align: end;
-    font-size: 2vh;
+    font-size: 6vh;
 }
 
 
@@ -416,14 +421,14 @@ SCREENSIZE +800PX
     padding-top: 13vh;
     
     /*Type*/
-    font-size: 5vh;
+    font-size: 7vh;
     font-weight: bold;
     text-align: end;
 }
     
     p.carouseltag{
     
-    font-size: 2vh;
+    font-size: 3vh;
     }
 
 
