@@ -203,6 +203,11 @@
   margin-right: calc(-100vw / 2 + 500px / 2);
 }
 
+.carousel-title{
+font-size: 5vh;
+    font-weight: bold;
+}
+
 p.carouseltag{
     /*Box-size*/
     margin-top: -10vh;
