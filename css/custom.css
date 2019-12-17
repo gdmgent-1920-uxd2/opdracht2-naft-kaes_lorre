@@ -180,6 +180,8 @@
     writing-mode: vertical-lr;
     text-orientation: sideways;
     font-size:3rem;
+    position: relative;
+    z-index: 500;
 }
 
 
