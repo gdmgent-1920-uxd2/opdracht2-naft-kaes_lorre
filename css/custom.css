@@ -9,6 +9,7 @@
         margin: 0;
         padding: 0;
         font-family: Futura;
+        color: white;
     }
 
     body{
@@ -211,6 +212,15 @@
   margin-right: calc(-100vw / 2 + 500px / 2);
 }
 
+.greenbar{
+    position: absolute;
+    background-color:#00CD91;
+    min-height: 5vh;
+    height: 50%;
+    top: 25%;
+    
+}
+
 .carousel-title{
     /*position*/
     margin-top: -10vh;
@@ -270,6 +280,24 @@ p.carouseltag{
     text-align: end;
 }
 
+
+.albumtitle{
+    margin:2vh 0 5vh 0;
+    padding: 1% 4% 1% 1%;
+    position: relative;
+    background-color: white;
+    left: calc(-1 * (100vw - 100%) / 2);
+    width: 55vw;
+    
+}
+
+.albumtitle h1{
+    color: #151515;
+    font-weight: bold;
+    font-size: 7vh;
+    margin-right: 6vw;
+    
+}
 
 
 
