@@ -2,8 +2,8 @@
 /* CSS Document */
 
 p{
-    font-size: 2vh;
-    line-height: 4vh;
+    font-size: 3vh;
+    line-height: 5vh;
     color: white;
     
 }
@@ -11,11 +11,32 @@ p{
 .greenacross{
     position: relative;
     z-index: -100;
-    background-color:#00FFB2;
-    height: 39vh;
-    margin-bottom: -37.5vh;
+    background-color:#00CD91;
+    height: 44vh;
+    margin-bottom: -41.5vh;
 }
 
 .blackletter{
     color: #151515;
+}
+
+.img-card-top{
+    min-height: 15vh;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.tag-card {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #0008B7;
+    padding: 5% 10% 5% 25%;
+    border-radius: 5pt 0 0 5pt;
+    color: white;
+    font-weight: bold;
 }

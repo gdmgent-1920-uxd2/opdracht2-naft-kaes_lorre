@@ -55,7 +55,7 @@
     nav ul{
         align-items: flex-end;
         z-index: 50;
-        background-color: #00FFB2;
+        background-color: #00CD91;
         padding: 40vh;
         margin: -40vh -40vh 0 -40vh;
         margin-left: 5vw
@@ -198,7 +198,7 @@
 }
 
 .green{
-    background-color:#00FFB2;
+    background-color:#00CD91;
     left: calc(-1 * (100vw - 100%) / 2);
 }
 
@@ -243,7 +243,7 @@ p.carouseltag{
 .table{
     margin: 5vh 0;
     background-color: transparent;
-    color: #00FFB2;
+    color: #00CD91;
     font-size: 0.8rem;
 }
 .table td{
@@ -281,7 +281,7 @@ p.carouseltag{
 
 /* footer
 ---------------------- */
-footer{
+.page-footer{
     margin-top: 15vh;
 }
 
@@ -418,7 +418,7 @@ SCREENSIZE +800PX
     }
 
     .green{
-        background-color:#00FFB2;
+        background-color:#00CD91;
     }
      
     .carousel-title{
