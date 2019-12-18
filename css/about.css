@@ -2,7 +2,20 @@
 /* CSS Document */
 
 p{
-    font-size: 0.8rem;
+    font-size: 2vh;
+    line-height: 4vh;
     color: white;
     
+}
+
+.greenacross{
+    position: relative;
+    z-index: -100;
+    background-color:#00FFB2;
+    height: 39vh;
+    margin-bottom: -37.5vh;
+}
+
+.blackletter{
+    color: #151515;
 }
