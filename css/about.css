@@ -20,6 +20,10 @@ p{
     color: #151515;
 }
 
+div.card , .card-img-top{
+    border:none;
+}
+
 .img-card-top{
     min-height: 15vh;
     overflow: hidden;
