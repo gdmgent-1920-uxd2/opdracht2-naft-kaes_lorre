@@ -215,14 +215,16 @@
 
 }
 
-.carousel-title{
+h1.carousel-title{
     /*position*/
+    
     margin-top: -10vh;
     padding-top: 13vh;
     
     /*Type*/
+    
     color: white;
-    font-size: 7vh;
+    font-size: 3rem;
     font-weight: bold;
     text-align: end;
 }
@@ -233,8 +235,10 @@ p.carouseltag{
     padding-bottom: 5vh;
     
     /*Type*/
+    
     text-align: end;
-    font-size: 6vh;
+    font-size: 1.3rem;
+    
 }
 
 
@@ -459,6 +463,7 @@ SCREENSIZE +800PX
     font-size: 7vh;
     font-weight: bold;
     text-align: end;
+        color: white;
 }
     
     p.carouseltag{
