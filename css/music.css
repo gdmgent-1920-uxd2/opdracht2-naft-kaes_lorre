@@ -25,6 +25,7 @@ p{
     background-color:#00CD91;
     height: 20vh;
     margin-top: -25vh;
+    z-index: -50;
     
     
 }
