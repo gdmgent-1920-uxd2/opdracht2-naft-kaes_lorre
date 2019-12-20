@@ -19,7 +19,7 @@ p{
 
 .greenbar{
     margin-left: calc(50% - 50vw);
-    margin-right: calc(50% - 50vw);
+    margin-right: calc(50% - 49.65vw);
     width: 100vw;
     position: relative;
     background-color:#00CD91;
