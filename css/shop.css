@@ -10,7 +10,7 @@ text-decoration: none;
 font-size: 25px;
 }
 
-.active {
+ul.nav-shop li a.active {
 
     border-bottom: .3rem solid #00FFB2;
 }
