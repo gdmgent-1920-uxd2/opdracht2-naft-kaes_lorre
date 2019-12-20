@@ -7,7 +7,6 @@
         margin: 0;
         padding: 0;
         font-family: 'Roboto' , sans-serif;
-        
     }
 
     body{
@@ -212,10 +211,7 @@
   margin-right: calc(-100vw / 2 + 500px / 2);
 }
 
-
-}
-
-h1.carousel-title{
+.carousel-title{
     /*position*/
     
     margin-top: -10vh;
