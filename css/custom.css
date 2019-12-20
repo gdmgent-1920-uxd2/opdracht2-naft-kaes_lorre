@@ -305,8 +305,8 @@ p.carouseltag{
 }
 
 div.image{
+    min-height: 40vh;
     overflow: hidden;
-    padding-bottom: 100%;
     }
 
 
