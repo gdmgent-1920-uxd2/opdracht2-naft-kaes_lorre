@@ -8,7 +8,7 @@
         <div class="row">
 
           <!-- Grid column -->
-          <div class="col-md-6 mt-md-0 mt-3">
+          <div class="col-md-6 col-lg-4 mt-md-0 mt-3">
 
             <!-- Content -->
 			  
@@ -21,7 +21,7 @@
           </div>
           <!-- Grid column -->
 
-          <div class="col-md-6 align-self-end justify-content-end">
+          <div class="col-md-6 col-lg-4 offset-lg-3 align-self-end justify-content-end">
             <legend for="email">NIEUWBRIEF</legend>
             <input class="inputEmail" type="email" name="Email input" placeholder="e-mail" id="email" required>
             <input class="submit" type="submit" value="INSCHRIJVEN">

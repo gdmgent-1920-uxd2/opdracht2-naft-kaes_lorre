@@ -180,7 +180,7 @@
     color: black;
     writing-mode: vertical-rl;
     text-orientation: sideways;
-    font-size:3rem;
+    font-size:1rem;
     position: relative;
     z-index: 500;
 }
@@ -437,7 +437,7 @@ SCREENSIZE +800PX
     /*Sectiontitle*/
 
     .titleleft{
-
+        margin-bottom: -5vh;
         font-size:3rem;
     }
 

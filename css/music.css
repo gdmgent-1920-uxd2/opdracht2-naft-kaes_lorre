@@ -1,3 +1,17 @@
 @charset "utf-8";
 /* CSS Document */
 
+.row{
+    margin: 5vh inherit;
+}
+p{
+    color: white;
+    font-weight: 300;
+    text-align: end;
+}
+
+.image img{
+    min-height: 45vh;
+    object-fit: cover;
+    object-position: center;
+}
