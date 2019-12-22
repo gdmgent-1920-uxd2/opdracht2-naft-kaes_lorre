@@ -412,13 +412,13 @@ SCREENSIZE +800PX
     /*Video Caption*/
 
     .caption h1{
-        font-size: 15rem;
+        font-size: 10rem;
         text-transform: uppercase;
         margin-bottom: -2rem;
     }
 
     .caption h3{
-        font-size: 3.2rem;
+        font-size: 3.1rem;
     }
 
 
@@ -474,7 +474,7 @@ SCREENSIZE +800PX
     
     p.carouseltag{
     
-    font-size: 3vh;
+    font-size: 1.3rem;
     }
 
 
@@ -482,7 +482,7 @@ SCREENSIZE +800PX
 
     .table{
         margin: 5vh 0;
-        font-size: 2rem;
+        font-size: 2.4rem;
     }    
     .venue{
         font-size: 2.2rem;
@@ -495,7 +495,7 @@ SCREENSIZE +800PX
     }
 
     .table th{
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     }
 
 
