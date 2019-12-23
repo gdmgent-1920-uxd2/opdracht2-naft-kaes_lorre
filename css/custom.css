@@ -334,8 +334,13 @@ div.image{
     text-align: start;
 }
 
-h5{color: white; margin-top: 2vh;}
-.contact{color: white;}
+h5{
+    color: white; 
+    margin-top: 2vh;
+}
+.contact{
+    color: white;
+}
 
 /* footer
 ---------------------- */
