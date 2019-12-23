@@ -23,6 +23,7 @@ h4{
 }
 
 .cart-card{
+    margin-bottom: 5vh;
     padding: 5vh 3vw;
     background: white;
 }
@@ -72,7 +73,7 @@ i.delete{
 }
 
 h4.date-delivery{
-    margin: 5vh 0 0 0;
+    margin: 2vh 0 0 0;
 }
 h4.coupon{
  margin: 1vh 0 0 0;    
@@ -98,3 +99,31 @@ p.date-delivery{
     color: #151515;
     font-size: 1.3rem;
 }
+
+
+
+
+
+
+
+@media (max-width: 600px){
+    
+    .inputCoupon{
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    padding:0 1vw 0 1vw;  
+    height: 5vh;
+}
+
+.submitCoupon{
+    margin-top: 0.5rem;
+    margin-left: -5vw;
+    padding: 0 1vw;
+    height: 5vh;
+    background-color: #00CD91;
+    color: #151515;
+    font-size: 0.8rem;
+}
+    
+}
+
