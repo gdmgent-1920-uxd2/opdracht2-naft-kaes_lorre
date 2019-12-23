@@ -30,6 +30,9 @@
     .navbar{
         background: rgba(0,0,0,0);
         color: white;
+        padding-left: 0;
+        padding-right: 0;
+            
     }
     .navbar-brand img{
         margin-top: 2rem;
@@ -42,6 +45,7 @@
         z-index: 100;
         margin-top: 2rem;
         padding-top: 1,5rem;
+        padding-right: 2vw;
     }
 
 
@@ -55,7 +59,7 @@
         align-items: flex-end;
         z-index: 50;
         background-color: #00CD91;
-        padding: 50% 35%;
+        padding: 50% 25%;
         margin: -35% 0 0 20%;
         margin-left: 5vw
     }
@@ -395,8 +399,12 @@ footer a{
         min-height: 5vh;
         min-width: 5vh;
     }
-    
+
+
+
 }
+
+
 
 
 
@@ -536,7 +544,7 @@ SCREENSIZE +800PX
 
 
 
-/*Big Screen widths addition*/
+/*custom Screen widths*/
 @media (min-width: 576px) {
   .container {
     max-width: 500px;
