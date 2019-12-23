@@ -281,10 +281,12 @@ p.carouseltag{
 }
 
 
-.ticket{
-    text-align: end;
+.table .ticket{
+    text-align: center;
+    width: 80%;
+    background-color: #0500A9;
+    color: white;
 }
-
 
 .albumtitle{
     margin:2vh 0 5vh 0;
@@ -327,6 +329,13 @@ div.image{
     background: blue;
 }
 
+.form-mess{
+     height: 35vh;
+    text-align: start;
+}
+
+h5{color: white; margin-top: 2vh;}
+.contact{color: white;}
 
 /* footer
 ---------------------- */
