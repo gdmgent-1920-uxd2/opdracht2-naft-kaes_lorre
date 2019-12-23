@@ -371,6 +371,36 @@ footer a{
 
 
 
+
+@media (min-width: 580px){
+    body{
+        font-size: 1.2rem;
+    }
+    
+    
+    .table, .table th {
+        font-size: 1.2rem;
+    }
+    
+    .titleleft{
+        font-size: 1.2rem;
+    }
+    
+     .navbar-brand img{
+        height: 5vh;
+        
+    }
+
+    .navbar-toggler-icon{
+        min-height: 5vh;
+        min-width: 5vh;
+    }
+    
+}
+
+
+
+
 /*
 
 SCREENSIZE +800PX
