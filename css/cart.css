@@ -101,7 +101,17 @@ p.date-delivery{
 }
 
 
+.full-green{
+    width: 100%;
+    background-color: #00CD91;
+    height: 3rem;
+    margin: 2vh 0;
+}
 
+input.form-check-input{
+    padding: 2vh;
+    font-size: 1.3rem;
+}
 
 
 
