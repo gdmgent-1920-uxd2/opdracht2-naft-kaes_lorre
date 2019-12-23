@@ -20,14 +20,14 @@
       <!-- Custom CSS -->
     <link href="../css/custom.css" rel="stylesheet">
       
-    <link href="../css/extra.css" re="stylesheet">
+    <link href="../css/extra.css" rel="stylesheet">
     
   
       <!-- TemplateBeginEditable name="head" -->
   
       <!-- TemplateEndEditable -->
   </head>
-  <body class="container-fluid">
+  <body class="container-fluid clearfix">
   	<!-- body code goes here -->
       <div class="container-fluid clearfix">
     <nav class="row navbar fixed-top">
@@ -65,7 +65,9 @@
         
 
 </nav>
-  </div><!-- #BeginLibraryItem "/Library/Fullscreen bg Vid.lbi" -->
+  </div>
+      
+<!-- #BeginLibraryItem "/Library/Fullscreen bg Vid.lbi" -->
 <div class="video-background">
       <div class="video-wrap">
           <div class="video">
@@ -95,8 +97,8 @@
     
     <!-- Footer -->
     <!-- ------------------------ --><!-- #BeginLibraryItem "/Library/footer.lbi" -->
-    <footer class="container-fluid page-footer font-small green pt-4">
-
+    <footer class="container-fluid page-footer font-small  pt-4">
+<div class="green">
       <!-- Footer Links -->
       <div class="container text-center text-md-left">
 
@@ -170,7 +172,7 @@
 
       </div>
       <!-- Copyright -->
-
+</div>
     </footer><!-- #EndLibraryItem --><!-- /Footer -->  
       
       

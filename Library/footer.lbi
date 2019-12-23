@@ -1,6 +1,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <footer class="container-fluid page-footer font-small green pt-4">
-
+    <footer class="container-fluid page-footer font-small  pt-4">
+<div class="green">
       <!-- Footer Links -->
       <div class="container text-center text-md-left">
 
@@ -74,5 +74,5 @@
 
       </div>
       <!-- Copyright -->
-
+</div>
     </footer>
