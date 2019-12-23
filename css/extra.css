@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+
+.video-background {
+        position: fixed !important;
+        background-color: transparent;
+    }
+
+.video-wrap{
+    position: fixed !important;
+}

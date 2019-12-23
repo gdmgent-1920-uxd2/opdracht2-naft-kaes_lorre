@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en"><!-- InstanceBegin template="../Templates/basis.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="en">
   <head>
     <meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!-- InstanceBeginEditable name="doctitle" -->
-	<title>UXD2 NAFT | SHOP</title>
-	<!-- InstanceEndEditable -->
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>UXD2 NAFT | Untitled Document</title>
+	<!-- TemplateEndEditable -->
 	
       <!-- Bootstrap -->
 	<link href="../css/bootstrap-4.3.1.css" rel="stylesheet">
@@ -19,11 +19,13 @@
       
       <!-- Custom CSS -->
     <link href="../css/custom.css" rel="stylesheet">
+      
+    <link href="../css/extra.css" re="stylesheet">
     
   
-      <!-- InstanceBeginEditable name="head" -->
-	  <link rel="stylesheet" href="../css/shop.css">
-  <!-- InstanceEndEditable -->
+      <!-- TemplateBeginEditable name="head" -->
+  
+      <!-- TemplateEndEditable -->
   </head>
   <body class="container-fluid">
   	<!-- body code goes here -->
@@ -53,7 +55,7 @@
         <a class="nav-link" href="../about.html">about</a>
       </li>
         <li class="nav-item">
-        <a class="nav-link" href="index.html">shop</a>
+        <a class="nav-link" href="../shop/index.html">shop</a>
       </li>
         <li class="nav-item">
         <a class="nav-link" href="../contact.html">contact</a>
@@ -76,96 +78,19 @@
 </div>
 
 <!-- #EndLibraryItem -->
-<!-- InstanceBeginEditable name="Overlay Video" -->
+<!-- TemplateBeginEditable name="Overlay Video" -->
       
     <div class="caption d-flex flex-column">
             <h1 class="text-center">We're Naft</h1>
             <h3 class="text-center">Top of The Belgium Brass Dance Music</h3>
     </div>  
 
-<!-- InstanceEndEditable -->
+<!-- TemplateEndEditable -->
       
-      
-  <div>
+
     
-    <div class="pagetitle">
-        <h1 class="text-right">
-            <!-- InstanceBeginEditable name="pagetitle" -->
-        SHOP
-        
-    <!-- InstanceEndEditable -->
-        </h1>
-    </div>
-          
-    </div>
-      
-        <!-- InstanceBeginEditable name="body" -->
-      
-      <div class="container">
-          <div class="row">
-      
     
-    <ul class="nav-shop col-6 offset-3 d-flex justify-content-around">
-		
-	<li><a class="active" href="#">clothes </a></li>
-
-    <li><a href="#" target="_blank">album</a></li>
-
-    <li><a href="#"target="_blank">more</a></li>
-	
-    </ul>
-                
-
-          </div>
-		  
-		  
-
-                <div class="row justify-content-center">
-
-                    <article class="card col-3">
-                        <img class="card-img img-fluid" src="../content/photo/in-gold-we-trust-basic-t-shirt-met-merkopdruk.jpeg" alt="t-shirt">
-                        <h1 class="card-img-overlay"> WILDEBRASS WHITE <br> T-SHIRT <br>€15- </h1>
-					</article>
-					
-					 <article class="card col-3">
-                        <img class="card-img img-fluid" src="../content/photo/in-gold-we-trust-basic-t-shirt-met-merkopdruk.jpeg" alt="t-shirt">
-                        <h1 class="card-img-overlay">  WILDEBRASS WHITE <br> T-SHIRT <br>€15-</h1>
-					</article>
-					
-					 <article class="card col-3">
-                        <img class="card-img img-fluid" src="../content/photo/in-gold-we-trust-basic-t-shirt-met-merkopdruk.jpeg" alt="t-shirt">
-                        <h1 class="card-img-overlay"> WILDEBRASS WHITE <br> T-SHIRT <br>€15- </h1>
-					</article>
-					
-					 <article class="card col-3">
-                        <img class="card-img img-fluid" src="../content/photo/in-gold-we-trust-basic-t-shirt-met-merkopdruk.jpeg" alt="t-shirt">
-                        <h1 class="card-img-overlay"> WILDEBRASS WHITE <br> T-SHIRT <br>€15- </h1>
-					</article>
-					
-					 <article class="card col-3">
-                        <img class="card-img img-fluid" src="../content/photo/in-gold-we-trust-basic-t-shirt-met-merkopdruk.jpeg" alt="t-shirt">
-                        <h1 class="card-img-overlay"> WILDEBRASS WHITE <br> T-SHIRT <br>€15- </h1>
-					</article>
-					
-					 <article class="card col-3">
-                        <img class="card-img img-fluid" src="../content/photo/in-gold-we-trust-basic-t-shirt-met-merkopdruk.jpeg" alt="t-shirt">
-                        <h1 class="card-img-overlay"> WILDEBRASS WHITE <br> T-SHIRT <br>€15-</h1>
-					</article>
-					
-					 
-			   
-			  </div>
-			  
-		 </section>
-		  
-		  
-		  
-      </div>
-              
-              <!-- InstanceEndEditable -->
-
-    <!-- InstanceBeginEditable name="disclaimer" -->
-    <!-- InstanceEndEditable -->
+   
       
     
     <!-- Footer -->
@@ -259,4 +184,4 @@
 	<script src="../js/popper.min.js"></script> 
 	<script src="../js/bootstrap-4.3.1.js"></script>
   </body>
-<!-- InstanceEnd --></html>
+</html>
