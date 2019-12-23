@@ -1,6 +1,28 @@
 @charset "utf-8";
 /* CSS Document */
 
-.img {
-    height: 10vh;
+.navbar{
+    background-color: rgba(0,205,145,1.00);
+}
+
+.img img{
+    height: 100%;
+}
+
+.cart-card{
+    padding: 5vh 5vw;
+    background: white;
+}
+
+
+.articlename,.price, p{
+    color: #151515;
+    margin-top: 2vh;;
+}
+
+select{
+    min-width: 0;
+    min-height: 0;
+    background-color: white;
+    border: 0px;
 }
