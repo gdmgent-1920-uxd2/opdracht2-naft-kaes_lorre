@@ -29,3 +29,64 @@ p{
     
     
 }
+
+
+@media 
+    (min-width: 580px)
+and (max-width:799px){
+    .image img{
+        min-height: 25vh;
+    }
+
+
+    .albumtitle{
+    margin:2vh 0 5vh 0;
+    padding: 1% 4% 1% 1%;
+    position: relative;
+    background-color: white;
+    left: calc(-1 * (100vw - 100%) / 2);
+    width: 85vw;  
+}
+    
+    
+    .albumtitle-alt{
+    margin:2vh 30vw 5vh -10vw;
+    padding: 1% 4% 1% 1%;
+    position: relative;
+    background-color: white;
+    width: 55vw;  
+}
+
+
+    .albumtitle h1,.albumtitle-alt h1{
+    color: #151515;
+    font-weight: bolder;
+    font-size: 3.2rem;
+    margin-right: 15vw;
+    
+}
+    .greenbar{
+    height: 30vh;   
+    margin-top: -30vh;
+        
+        
+    }
+    
+}
+
+
+
+@media (max-height:576px){
+    .albumtitle,.albumtitle-alt{
+        margin-top: -25px;
+        z-index: 100;
+        width: 100vw;
+    }
+    
+    .greenbar{
+        height: 40vh;
+        margin-top: -35vh;
+    }
+    
+    
+}
