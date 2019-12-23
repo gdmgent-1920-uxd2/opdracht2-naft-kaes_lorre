@@ -327,8 +327,16 @@ div.image{
     background: blue;
 }
 
+
 /* footer
 ---------------------- */
+
+.fa-angle-double-up{
+    margin-left: 1vw;
+    font-size: 10px;
+}
+
+
 .page-footer{
     margin-top: 15vh;
 }
@@ -380,6 +388,18 @@ footer .fa{
 	font-size: 50px;
     padding: 0 5px;
 }
+
+.back-to-top {
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display:none;
+}
+
+
+
+ /*EINDE FOOTER*/
 
 
 

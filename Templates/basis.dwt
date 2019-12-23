@@ -121,7 +121,7 @@
         <div class="row">
 
           <!-- Grid column -->
-          <div class="col-md-6 col-lg-4 mt-md-0 mt-3">
+          <div class="col-md-5 col-lg-4 mt-md-0 mt-3">
 
             <!-- Content -->
 			  
@@ -134,11 +134,38 @@
           </div>
           <!-- Grid column -->
 
-          <div class="col-md-6 col-lg-6 offset-lg-2 align-self-end justify-content-end">
+          <div class="col-md-7 col-lg-7 offset-lg-1 align-self-end justify-content-end">
             <legend for="email">NIEUWBRIEF</legend>
             <input class="inputEmail" type="email" name="Email input" placeholder="e-mail" id="email" required>
             <input class="submit" type="submit" value="INSCHRIJVEN">
+            <div class="logos">
+                            <a href="https://www.facebook.com/"target="_blank">
 
+                                <i class="fa fa-facebook"></i>
+                            </a>
+
+
+                            <a href="https://www.instagram.com/"target="_blank">
+
+
+                                <i class="fa fa-instagram"></i>
+                            </a>
+
+                            <a href="https://open.spotify.com/artist/3M092oJMJq53ESGOMqCrAq"target="_blank">
+
+
+                                    <i class="fa fa-spotify"></i>
+                        </a>
+
+                            <a href="https://www.youtube.com/channel/UCy8D2oEW80r2jyRovlLR8WQ"target="_blank">
+
+
+                                <i class="fa fa-youtube-play"></i>
+                        </a>
+                        
+                        <a id="back-to-top" href="#" title="Click to return on the top page"><i class="fa fa-angle-double-up">UP</i></a>
+
+                        </div>
           </div>
           <!-- Grid column -->
 
@@ -151,33 +178,7 @@
       <div class="row">
       <!-- Footer Links -->
 		
-		<div class="logos">
-				<a href="https://www.facebook.com/"target="_blank">
-                     
-                    <i class="fa fa-facebook"></i>
-				</a>
-			
-			
-                <a href="https://www.instagram.com/"target="_blank">
-                   
-                   
-					<i class="fa fa-instagram"></i>
-				</a>
-			
-                <a href="https://open.spotify.com/artist/3M092oJMJq53ESGOMqCrAq"target="_blank">
-          
-                   
-						<i class="fa fa-spotify"></i>
-			</a>
-			
-                <a href="https://www.youtube.com/channel/UCy8D2oEW80r2jyRovlLR8WQ"target="_blank">
-
-
-                    <i class="fa fa-youtube-play"></i>
-			</a>
-				
-				
-            </div>
+		
 </div>
 		</div>
       <!-- Copyright -->
