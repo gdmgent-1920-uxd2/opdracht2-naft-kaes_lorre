@@ -346,9 +346,10 @@ div.image{
     color: rgb(255, 255, 255);
     padding: .6rem 1rem 0.6rem 0.6rem;
     font-size: 1rem;
-    margin-left: -.2rem;
+    margin-left: -.3rem;
     margin-bottom: 2rem;
     border-radius: 0 2vw 2vw 0;
+    border: 0px;
 }
 
 .footer-copyright {
