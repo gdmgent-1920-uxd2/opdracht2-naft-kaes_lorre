@@ -30,6 +30,11 @@ div.card , .card-img-top{
     object-fit: cover;
 }
 
+.bandlid{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
 .tag-card {
     position: absolute;
     bottom: 0;
@@ -43,4 +48,26 @@ div.card , .card-img-top{
     border-radius: 5pt 0 0 5pt;
     color: white;
     font-weight: bold;
+    min-width: 10vw;
+}
+
+
+
+@media (max-width: 600px){
+    p{
+        font-size: 1rem;
+    }
+    .btn{
+    margin: 5vh 0;
+    width: 100%;
+}
+}
+
+@media (min-width: 601px) and (max-width:800px){
+    p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+    
+    
 }

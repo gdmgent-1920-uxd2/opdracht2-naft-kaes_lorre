@@ -73,17 +73,18 @@
 </nav>
   </div>
       <!-- TemplateBeginEditable name="Video" --><!-- #BeginLibraryItem "/Library/Fullscreen bg Vid.lbi" -->
-      <div class="video-background">
-        <div class="video-wrap">
+<div class="video-background">
+      <div class="video-wrap">
           <div class="video">
-            <video id="bgvid" autoplay loop muted>
-              <source src="../content/video/naftvid.mp4" type="video/mp4">
-            </video>
+              <video id="bgvid" autoplay loop muted>
+                   <source src="../content/video/naftvid.mp4" type="video/mp4">
+              </video>
           </div>
-        </div>
       </div>
-      <!-- #EndLibraryItem -->
-      <!-- TemplateEndEditable -->
+
+</div>
+
+<!-- #EndLibraryItem --><!-- TemplateEndEditable -->
   <div class="caption">
         
         <!-- TemplateBeginEditable name="Overlay Video" -->
@@ -143,7 +144,7 @@
                                 <i class="fa fa-youtube-play"></i>
                         </a>
                         
-                        <a id="back-to-top" href="#" title="Click to return on the top page"><i class="fa fa-angle-double-up">UP</i></a>
+                        <a id="back-to-top" href="#"><i class="fa fa-angle-double-up">UP</i></a>
 
                         </div>
           </div>

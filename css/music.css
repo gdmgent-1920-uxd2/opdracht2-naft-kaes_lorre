@@ -24,12 +24,15 @@ p{
     position: relative;
     background-color:#00CD91;
     height: 20vh;
-    margin-top: -25vh;
+    margin-top: -30vh;
     z-index: -50;
     
     
 }
-
+.btn{
+    background-color: #0500A9;
+    color: white;
+}
 
 @media 
     (min-width: 580px)
@@ -51,7 +54,7 @@ and (max-width:799px){
     
     .albumtitle-alt{
     margin:2vh 30vw 5vh -10vw;
-    padding: 1% 4% 1% 1%;
+    padding: 1% 4% 1% 0%;
     position: relative;
     background-color: white;
     width: 55vw;  
@@ -62,11 +65,11 @@ and (max-width:799px){
     color: #151515;
     font-weight: bolder;
     font-size: 3.2rem;
-    margin-right: 15vw;
+    margin-right: 12vw;
     
 }
     .greenbar{
-    height: 30vh;   
+    height: 25vh;   
     margin-top: -30vh;
         
         
@@ -84,9 +87,9 @@ and (max-width:799px){
     }
     
     .greenbar{
-        height: 40vh;
-        margin-top: -35vh;
+        height: 35.75vh;
+        margin-top: -45vh;
     }
     
-    
+    .btn{margin-top: -1vh;}
 }
