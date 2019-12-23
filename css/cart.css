@@ -106,14 +106,18 @@ p.date-delivery{
     background-color: #00CD91;
     height: 3rem;
     margin: 2vh 0;
+    padding-bottom: 2vh;
+    border: solid 2vh #00CD91;
+    
 }
 
-input.form-check-input{
-    padding: 2vh;
-    font-size: 1.3rem;
+ol,ol li{
+    margin: 2vh 0;
 }
 
-
+.current{
+    color: #00CD91;
+}
 
 
 @media (max-width: 600px){
