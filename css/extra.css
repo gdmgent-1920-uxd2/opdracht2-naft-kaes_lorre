@@ -20,14 +20,25 @@ footer div.container{
 }
 
 .caption{
-    top: 15%;
+    top: 18%;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
 }
 
 .caption .container{
-    padding-top: 2vh;
+    padding: 2vh;
     background-color: rgba(21,21,21,0.80);
+    
+}
+
+.img{
+    height: 30vh;
+}
+
+.img img{
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
     
 }
