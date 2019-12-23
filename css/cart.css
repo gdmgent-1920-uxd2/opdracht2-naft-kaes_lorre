@@ -5,6 +5,19 @@
     background-color: rgba(0,205,145,1.00);
 }
 
+
+h2{
+    font-size: 2.5rem;
+    color: #00CD91;
+    font-weight: 700;
+}
+
+h4{
+    color: #00CD91;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
 .img img{
     height: 100%;
 }
@@ -18,11 +31,37 @@
 .articlename,.price, p{
     color: #151515;
     margin-top: 2vh;;
+    min-width: 50%
+
+
 }
+
+
 
 select{
     min-width: 0;
     min-height: 0;
+    color: #151515;
     background-color: white;
     border: 0px;
+}
+option{
+    font-weight: 300;
+}
+
+
+
+.caption .container a{ 
+    min-width: 5vw;
+    max-width: 25%;
+    height: 50px;
+    padding-top: auto;
+    align-self: center;
+
+}
+ 
+i.delete{
+    padding-top: 10%;
+    font-size: 30px;
+    color: #151515;
 }
