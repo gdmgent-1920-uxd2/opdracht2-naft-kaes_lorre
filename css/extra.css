@@ -1,16 +1,13 @@
 @charset "utf-8";
 /* CSS Document */
-.video-background {
-        overflow: auto;
-        background: 
-    }
+
 
 .video-wrap{
     position: fixed;
 }
 
-.page-footer{
-    margin-top: 51.7vh;
+footer.page-footer{
+    margin-top: 5vh;
 }
 
 footer div.container{
@@ -26,19 +23,43 @@ footer div.container{
     flex-direction: column;
 }
 
-.caption .container{
-    padding: 2vh;
+.caption .article{
+    padding: 10vh 4vh;
     background-color: rgba(21,21,21,0.80);
     
 }
 
 .img{
     height: 40vh;
+    background-color: white;
+    
 }
 
 .img img{
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     object-position: center;
     
+}
+
+h3{
+    margin-bottom: 5vh;
+}
+
+
+select, .btn{
+    /*Box*/
+    margin: 0.5rem;
+    padding: 3px;
+    min-width: 10vw;
+    
+    /*text*/
+    color: #00CD91;
+    background-color: #151515;
+    border-color: #151515;
+}
+
+.btn{
+    color: #151515;
+    background-color: #00CD91;
 }
