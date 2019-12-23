@@ -80,22 +80,15 @@
 </div>
 
 <!-- #EndLibraryItem -->
-<!-- TemplateBeginEditable name="Overlay Video" -->
-      
-    <div class="caption d-flex flex-column">
-            <h1 class="text-center">We're Naft</h1>
-            <h3 class="text-center">Top of The Belgium Brass Dance Music</h3>
-    </div>  
 
-<!-- TemplateEndEditable -->
       
-
-    
-    
-   
-      
-    
-    <!-- Footer -->
+    <div class="caption">
+        
+        <!-- TemplateBeginEditable name="Overlay Video" -->
+           
+        
+        <!-- TemplateEndEditable -->
+        <!-- Footer -->
     <!-- ------------------------ --><!-- #BeginLibraryItem "/Library/footer.lbi" -->
     <footer class="container-fluid page-footer font-small  pt-4">
 <div class="green">
@@ -174,6 +167,18 @@
       <!-- Copyright -->
 </div>
     </footer><!-- #EndLibraryItem --><!-- /Footer -->  
+        
+    </div>  
+
+
+      
+
+    
+    
+   
+      
+    
+    
       
       
       
